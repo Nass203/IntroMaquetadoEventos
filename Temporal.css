@@ -2,13 +2,21 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: pink;
+    background-image: url(Fondo.png);
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: overlay; 
+    color: white;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    z-index: 2;
 }
 
 header{
     padding: 20px;
     text-align: center;
-    color: white;
     z-index: 2;
 }
 
@@ -37,22 +45,57 @@ header{
     transform: scale(1.05);
 }
 
+.Halloween {
+    position: relative;
+    background-image: url(Fondo\ halloween.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: overlay; 
+}
+
+.Cumpleaño {
+    position: relative;
+    background-image: url(FondoChino.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: overlay; 
+}
+
+.DespedidaSoltera {
+    position: relative;
+    background-image: url(Fondo\ Despedida\ de\ soltera.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: overlay; 
+}
+
+.Boda {
+    position: relative;
+    background-image: url(Fondo\ Boda.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: overlay; 
+}
+
 /* Encabezado dentro de los eventos */
 .evento h1 {
     font-size: 1.5em;
-    color: #333;
+    color: #0e0d0d;
     font-family: 'Great Vibes', cursive;
+
 
 }
 
 .evento h2 {
     font-size: 1em;
-    color: #333;
-
+    color: #949090;
 }
 
 .evento p {
-    color: #666;
     font-family: 'Dancing Script', cursive;
 }
 
